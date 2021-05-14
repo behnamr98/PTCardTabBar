@@ -214,5 +214,6 @@ open class PTCardTabBar: UIView {
         super.layoutSubviews()
         stackView.frame = bounds.inset(by: UIEdgeInsets(top: 0, left: 0, bottom: 8, right: 0))
         layer.cornerRadius = bounds.height / 2
+        layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMinYCorner]
     }
 }

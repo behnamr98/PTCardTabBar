@@ -86,10 +86,10 @@ open class PTCardTabBar: UIView {
         
         self.backgroundColor = .white
         
-        self.layer.shadowColor = UIColor.black.cgColor
+        /*self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowOffset = CGSize(width: 3, height: 3)
         self.layer.shadowRadius = 6
-        self.layer.shadowOpacity = 0.15
+        self.layer.shadowOpacity = 0.15*/
         
         indicatorViewYConstraint?.isActive = false
         indicatorViewYConstraint = indicatorView.topAnchor.constraint(equalTo: stackView.bottomAnchor, constant: -10.5)
